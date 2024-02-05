@@ -7,12 +7,16 @@ body {
     text-align: center;
 }
 
+audio {
+    padding: 50px;
+}
+
 p {
     font-family: monospace;
     color: darkred;
-    background-color: lightsteelblue;
+    background-color: rgb(202, 190, 163);
     display: inline-block;
-    padding: 10px
+    padding: 30px
 }
 
 h1 {
@@ -33,18 +37,24 @@ h2 {
     color: gold;
 }
 
-img{
-    height: 180px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+h3 {
+    background-color: lightsteelblue;
+    font-family: cursive;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+img {
+    width: 10%;
+    height: auto;
+    display: block;
     margin: 0 auto;
 }
 
 nav {
     font-family: cursive;
-    width: 200px;
-    height: 1600px;
+    width: 10%;
+    height: 100%;
     float: left;
     background-color: lightyellow;
     padding: 20px;

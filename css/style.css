@@ -7,18 +7,76 @@ body {
     text-align: center;
 }
 
-h1 {
+p {
     font-family: monospace;
+    color: darkred;
+    background-color: lightsteelblue;
+    display: inline-block;
+    padding: 10px
+}
+
+h1 {
+    font-family: cursive;
     background-color: tomato;
-    color: darkslategrey;
+    color: whitesmoke;
     font-size: 40px;
-    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-family: monospace;
+    border: 6px outset goldenrod;
+    border-radius: 50px;
+    padding: 20px;
+    background-color: white;
+    color: gold;
 }
 
 img{
-    height: 300px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
 }
+
+nav {
+    font-family: cursive;
+    width: 200px;
+    height: 1600px;
+    float: left;
+    background-color: lightyellow;
+    padding: 20px;
+    border: 10px ridge goldenrod;
+    border-radius: 10px;
+}
+nav h2 {
+    margin-top: 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    margin-bottom: 10px;
+}
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: salmon;
+}
+nav a:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+nav img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border: 2px dotted salmon;
+    border-radius: 10px;
+}
+
